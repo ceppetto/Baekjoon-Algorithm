@@ -1,2 +1,2 @@
 # Baekjoon-Algorithm
-Baekjoon Online Judge Solution
+Baekjoon-Online-Judge Solution
