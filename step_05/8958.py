@@ -2,7 +2,7 @@ import sys
 n = int(input())
 resScore = [sys.stdin.readline() for _ in range(n)]
 
-sumScore = 0 # 총점을 위한 변
+sumScore = 0 # 총점을 위한 변수
 cnt = 1 # O의 개수를 세기 위한 변수
 
 for i in range(n):
