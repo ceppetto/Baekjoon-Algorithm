@@ -22,4 +22,4 @@ for i in x:
     if res == None:
         print('0', end=' ')
     else:
-        print(1, end=' ')
+        print('1', end=' ')
