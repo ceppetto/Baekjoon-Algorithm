@@ -14,6 +14,14 @@ def binary_search(array, target, start, end):
 n = int(sys.stdin.readline().rstrip())
 num = list(map(int, sys.stdin.readline().rstrip().split()))
 num.sort()
+
+count = {}
+for i in num:
+    if i not in count.keys():
+            count[i] = 1
+    else:
+        count[i] += 1
+
 m = int(sys.stdin.readline().rstrip())
 x = list(map(int, sys.stdin.readline().rstrip().split()))
 
@@ -22,4 +30,4 @@ for i in x:
     if res == None:
         print('0', end=' ')
     else:
-        print(num.count(i), end=' ')
+        print(count[i], end=' ')
