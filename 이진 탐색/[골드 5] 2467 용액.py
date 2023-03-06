@@ -18,7 +18,8 @@ while start < end:
     if abs(tmp) <= value:
             result = (solution[start], solution[end])
             value = abs(tmp)
-            
+    
+    # 투 포인터 방식을 적용 (완전 탐색시 시간 복잡도를 줄일 수 있음)
     if tmp < 0:
         start += 1
     else:
